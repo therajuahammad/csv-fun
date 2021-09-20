@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleForce = (data) => {
     dispatch(saveDataAction(data));
-    history.push("/view");
+    history.push("/table");
   };
 
   const papaparseOptions = {

@@ -1,5 +1,6 @@
 import Home from "./pages/home";
-import View from "./pages/view";
+import Table from "./pages/table";
+import Graph from "./pages/graph";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 import Navbar from "./components/navbar";
@@ -14,8 +15,11 @@ function App() {
           <Router>
             <Navbar />
             <Switch>
-              <Route path="/view">
-                <View />
+              <Route path="/graph">
+                <Graph />
+              </Route>
+              <Route path="/table">
+                <Table />
               </Route>
               <Route path="/">
                 <Home />
