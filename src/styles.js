@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styled, { themeGet } from "./styled";
-<<<<<<< HEAD
 import { TabList } from "react-tabs";
 
 export const TabNav = styled(TabList)`
@@ -17,24 +16,6 @@ export const TabNav = styled(TabList)`
     }
 
     &.react-tabs__tab--selected {
-=======
-import {TabList } from "react-tabs";
-
-export const TabNav = styled(TabList)`
-  list-style:none;
-  display:flex;
-  justify-content: center;
-
-  li{
-    cursor: pointer;
-    font-weight: ${themeGet("fontWeights.medium")};
-
-    &:not(:last-child){
-      margin-right: 20px;
-    }
-
-    &.react-tabs__tab--selected{
->>>>>>> 11e6054e5441bb33890370b23401e9afd62a08e9
       color: ${themeGet("colors.primary")};
     }
   }
