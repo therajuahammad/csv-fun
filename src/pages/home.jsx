@@ -19,6 +19,7 @@ const Home = () => {
 
   const handleForce = (data) => {
     dispatch(saveDataAction(data));
+<<<<<<< HEAD
   };
 
   const onInheritanceHandler = (event) => {
@@ -37,6 +38,8 @@ const Home = () => {
       };
     });
     dispatch(saveRenderedDataAction(renderedData));
+=======
+>>>>>>> 11e6054e5441bb33890370b23401e9afd62a08e9
     history.push("/table");
   };
 
